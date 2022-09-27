@@ -1,0 +1,25 @@
+{
+  "name": "ndse-homeworks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "sd": "hm1/date.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DamnFilthy/ndse-homeworks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DamnFilthy/ndse-homeworks/issues"
+  },
+  "homepage": "https://github.com/DamnFilthy/ndse-homeworks#readme",
+  "dependencies": {
+    "yargs": "^17.5.1"
+  }
+}
