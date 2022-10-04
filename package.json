@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "bin": {
-    "sd": "hm1/date.js"
+    "sd": "hm1/date.js",
+    "gm": "hm1/game.js",
+    "gm2": "hm2/game.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
