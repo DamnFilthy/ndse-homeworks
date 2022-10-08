@@ -6,10 +6,11 @@
   "bin": {
     "sd": "hm1/date.js",
     "gm": "hm1/game.js",
-    "gm2": "hm2/game.js"
+    "gm2": "hm2/game.js",
+    "weather": "hm3/weather.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node -r dotenv/config hm3/http.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,8 @@
   },
   "homepage": "https://github.com/DamnFilthy/ndse-homeworks#readme",
   "dependencies": {
+    "dotenv": "^16.0.3",
+    "uuid": "^9.0.0",
     "yargs": "^17.5.1"
   }
 }
